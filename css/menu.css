@@ -8,7 +8,7 @@
   display: block;
   position: relative;
   font-family: 'PT Sans', sans-serif;
-  z-index: 9999;
+  /*z-index: 9999;*/
   padding: 7px;
 }
 #cssmenu ul {

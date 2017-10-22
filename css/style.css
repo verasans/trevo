@@ -1,36 +1,8 @@
 @font-face {
-  font-family: "dgreg";
-  src:  url("fonts/dgreg.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'glacialbold';
-  src:  url('fonts/gibold.otf') format('otf');
-}@font-face {
-  font-family: 'glacialregular';
-  src:  url('fonts/gireg.otf') format('otf');
-}@font-face {
-  font-family: 'popblack';
-  src:  url('fonts/popblack.ttf') format('truetype');
-}@font-face {
   font-family: 'poplight';
   src:  url('fonts/popextralight.ttf') format('truetype');
-}@font-face {
-  font-family: 'popreg';
-  src:  url('fonts/popreg.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'ralebold';
-  src:  url('fonts/ralebold.ttf') format('truetype');
-}@font-face {
-  font-family: 'ralelight';
-  src:  url('fonts/ralelight.ttf') format('truetype');
-}@font-face {
-  font-family: 'ralereg';
-  src:  url('fonts/ralereg.ttf') format('truetype');
-}@font-face {
-  font-family: 'texbold';
-  src:  url('fonts/texbold.otf') format('otf');
-}@font-face {
   font-family: 'texreg';
   src:  url('fonts/texreg.otf') format('otf');
 }
@@ -55,12 +27,12 @@ html { -webkit-text-size-adjust: none;}
 .video embed,.video object,.video iframe { width: 100%;  height: auto;}
 img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 
-a{color: #4C4C4C;text-decoration: none;}
+a{color: #286B4A;text-decoration: none;}
 a:hover {opacity: 0.9; text-decoration: none;}
 
-h1, h2 	{font-size: 25px;line-height: 25px;color: #333333;}
-h3, h4	{font-size: 20px;line-height: 20px;color: #333333;}
-h5, h6	{font-size: 16px;line-height: 16px;color: #333333;}
+h1, h2 	{font-size: 25px;line-height: 25px;color: #286B4A;}
+h3, h4	{font-size: 20px;line-height: 20px;color: #286B4A;}
+h5, h6	{font-size: 16px;line-height: 16px;color: #286B4A;}
 
 p{margin: 10px 0;}
 
@@ -78,11 +50,11 @@ p{margin: 10px 0;}
 
 hr{border: 0;height: 3px;margin: 20px auto;}
 hr.line-1{background: #fff;max-width: 30px;}
-hr.line-2{background: #333333;max-width: 50px;height: 8px;}
+hr.line-2{background: #286B4A;max-width: 50px;height: 8px;}
 
 /* ------------------------------------Html-Body------------------------------- */
 html, body {width:100%; padding:0; margin:0;}
-body {background: #fff;color: #333;font-family:'Josefin Sans', sans-serif;}
+body {background: #fff;color: #333;font-family:'poplight', sans-serif;}
 body .wrap-body{}
 
 /* -------------------------------------Header--------------------------------- */
@@ -98,14 +70,14 @@ body .wrap-body{}
 .content-box {}
 .content-box .wrap-box {padding: 20px 15px; position: relative;}
 
-.header {text-align: center; margin-bottom: 50px;color: #252525;}
+.header {text-align: center; margin-bottom: 50px;color: #286B4A;}
 .header h2{font-size: 55px;line-height: 1.2;margin-bottom: 10px;}
 .header span{font-size: 40px;font-weight: bold;}
 
 
 .content-box.box-1 {}
 .content-box.box-1 .wrap-col{margin: 0 10px; }
-.wrap-col p {font-family: 'Fira Sans', sans-serif; color: #95a5a6; font-size: 14px;}
+.wrap-col p {font-family: 'poplight', sans-serif; color: #286B4A; font-size: 15px;}
 
 .content-box.box-2 {text-align: center;}
 
@@ -134,9 +106,10 @@ article .art-content{margin: 30px 0 10px;}
 .navigation ul li a:hover,.navigation ul li a:focus,.navigation ul li.active a{background:#3582A6;}
 
 /* -------------------------------------Footer--------------------------------- */
-footer{margin: 30px 0;font-weight: bold; color:#c1c1c1;}
+footer{margin: 30px 0; color:#c1c1c1;}
 footer .wrap-footer{}
-footer .big{font-size: 22px;}
+footer {font-size: 14px; font-weight: bold;}
+footer a {color: #c1c1c1; text-decoration: underline; }
 ul.social-buttons li{list-style: none;display: inline-block;}
 ul.social-buttons li a{color: #c1c1c1; font-size: 30px;margin-right: 15px;}
 ul.social-buttons li a:hover{color: #286B4A;}
@@ -147,7 +120,7 @@ ul.social-buttons li a:hover{color: #286B4A;}
 /* -------------------------------------Button--------------------------------- */
 a.button{
 	cursor: pointer;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'poplight', sans-serif;
 	font-size: 16px;
 	border:1px solid #ffffff; 
 	display: inline-block;
@@ -227,6 +200,8 @@ textarea {display:block;width:100%;height:250px;background-color: #ECECEC; color
 	position:absolute;left:0;top:50%;right:0;padding:0 10px;-webkit-transition:0.3s ease;transition:0.3s ease;-ms-transform:translate(0, -50%);-webkit-transform:translate(0, -50%);transform:translate(0, -50%)
 }
 .item-container .title h2{
+  font-family: 'texreg', sans-serif;
+  font-weight: lighter;
 	color:#fff;padding:0;font-size:40px;line-height:40px
 }
 .item-container .item-caption {
