@@ -244,15 +244,6 @@
   display: block;
 }
 
-.cssmenufixed {
-  z-index: 9999;
-  position: fixed !important;
-  top: 0 !important;
-  background: #fff !important;
-  margin: 0 !important ;
-  width: 100% !important;
-}
-
 @media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 	/*#cssmenu{background: #212121;}*/
   #cssmenu > ul {
@@ -387,5 +378,13 @@
 #cssmenu ul li ul li:hover:after,
 #cssmenu ul li ul li.active:after {
   background: #286B4A;
+}
+.cssmenufixed {
+  z-index: 9999;
+  position: fixed !important;
+  top: 0 !important;
+  background: #fff !important;
+  margin: 0 !important ;
+  width: 100% !important;
 }
 }
