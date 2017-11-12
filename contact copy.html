@@ -11,14 +11,6 @@
 	<title>TREVO</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
-
-	<!-- favicons -->
-	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-	<link rel="manifest" href="favicons/manifest.json">
-	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#1a3316">
-	<meta name="theme-color" content="#ffffff">
 	
     <!-- Mobile Specific Metas
 	================================================== -->
@@ -28,14 +20,11 @@
 	================================================== -->
   	<link rel="stylesheet" href="css/zerogrid.css">
 	<link rel="stylesheet" href="css/style.css">
-
-	<!-- FONT-AWESOME -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/lightbox.css">
 	
 	<link rel="stylesheet" href="css/menu.css">
 	<script src="js/jquery1111.min.js" type="text/javascript"></script>
 	<script src="js/script.js"></script>
-	<script src="js/menu.js"></script>
 	
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -56,7 +45,7 @@
 
 	<!--////////////////////////////////////Header-->
 	<header class="zerogrid">
-		<div class="logo"><a href='index.html'><img src="images/logo.svg" alt="logo"/></a></div>
+		<div class="logo"><img src="images/logo.jpg" alt="logo"/></div>
 		<div id='cssmenu' class="align-center">
 			<ul>
 			   <li><a href='index.html'><span>Portfólio</span></a></li>
@@ -68,37 +57,42 @@
 
 		<!--////////////////////////////////////Container-->
 		<section id="container">
-		<div class="wrap-container">
-			<div class="zerogrid">
-				<div class="wrap-box">
-					<div class="row">
-						<div class="col-full">
-							<div class="wrap-col">
-								<div class="item-container">
-									<img  src="images/contacts.png" alt=""/>
-								</div>
-							</div>
-						</div>
-						<div class="contact">
-							<h3><a class="mail" href="mailto:hello@trevoevents.com?Subject=Hello%20again" target="_blank">hello@trevoevents.com</a><br/></h3>
-						</div>
-
-						<div class="col-full">
-							<div class="wrap-col t-center">
-								<ul class="social-contacts">
-									<li><a href="https://www.instagram.com/trevoevents/" target="_blank"><i class="fa fa-instagram"></i></a>
-									</li>
-									<li><a href="https://www.facebook.com/trevoevents/" target="_blank"><i class="fa fa-facebook"></i></a>
-									</li>
-									<li><a href="https://www.pinterest.pt/trevoevents/" target="_blank"><i class="fa fa-pinterest"></i></a>
-									</li>
-								</ul>
-							</div>
+			<div class="wrap-container">
+				<div class="zerogrid">
+					<div class="contact">
+						<h3>Contact Form | Querem?</h3>
+						<div id="contact_form">
+							<form name="form1" id="ff" method="post" action="contact.php">
+								<label class="row">
+									<div class="col-1-3">
+										<div class="wrap-col">
+											<input type="text" name="name" id="name" placeholder="Enter name" required="required" />
+										</div>
+									</div>
+									<div class="col-1-3">
+										<div class="wrap-col">
+											<input type="email" name="email" id="email" placeholder="Enter email" required="required" />
+										</div>
+									</div>
+									<div class="col-1-3">
+										<div class="wrap-col">
+											<input type="text" name="subject" id="subject" placeholder="Subject" required="required" />
+										</div>
+									</div>
+								</label>
+								<label class="row">
+									<div class="wrap-col">
+										<textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required"
+										placeholder="Message"></textarea>
+									</div>
+								</label>
+								<center><input class="sendButton" type="submit" name="Submit" value="Submit"></center>
+							</form>
 						</div>
 					</div>
 				</div>
+				
 			</div>
-		</div>
 		</section>
 	<!--////////////////////////////////////Footer-->
 	<footer>
@@ -108,7 +102,19 @@
 			<div class="row">
 				<div class="col-1-2">
 					<div class="wrap-col">
+						<a class="mail" href="mailto:hello@trevoevents.com?Subject=Hello%20again" target="_blank">hello@trevoevents.com</a><br/>
 						<span>Copyright 2016 - TREVO events design | Designed by <a href="https://verasans.github.io/" target="_blank">Sans</a></span>
+					</div>
+				</div>
+				<div class="col-1-2">
+					<div class="wrap-col t-right">
+						<ul class="social-buttons">
+							<li><a href="https://www.instagram.com/trevoevents/" target="_blank"><i class="fa fa-instagram"></i></a>
+							</li>
+							<li><a href="https://www.facebook.com/trevoevents/" target="_blank"><i class="fa fa-facebook"></i></a>
+							</li>
+						</ul>
+					</ul>
 					</div>
 				</div>
 			</div>
